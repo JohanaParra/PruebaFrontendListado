@@ -1,3 +1,6 @@
+#Construcción del proyecto
+Definición de los componentes para la construcción del proyecto y llamar la lista del api.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

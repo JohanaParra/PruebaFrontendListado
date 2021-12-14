@@ -1,0 +1,81 @@
+
+.list-data {
+  text-align: center;
+  color: blue;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2rem;
+}
+
+.list-data__input {
+    align-items: end;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 25px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.list-data__input__buscar{
+  width: 30% !important;
+}
+
+.list-data__input__buscar-user{
+  width: 10% !important;
+}
+
+@media (max-width: 988px){
+  
+  .list-data__input__buscar{
+    width: 100% !important;
+  }
+  .list-data__input__buscar-user{
+    width: 100% !important;
+  }
+    
+  .list-data__input{
+    padding-bottom: 15px;
+  }
+
+}
+
+table{
+  min-width: 500px;
+}
+
+.table>thead {
+  color: brown;
+}
+
+.table-responsive{
+ margin: 5%;
+}
+
+thead {
+  border-color: cornflowerblue;
+    border-style: outset;
+    border-width: 2px;
+}
+
+tbody{
+  border-color: cornflowerblue;
+    border-style: outset;
+    border-width: 2px;
+}
+
+th {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+}
+
+td {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+}
